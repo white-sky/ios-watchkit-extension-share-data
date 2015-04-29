@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A131A891AF15B6E0033320E /* ShareDataNsFileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A131A881AF15B6E0033320E /* ShareDataNsFileCoordinator.swift */; };
+		0A131A8A1AF15B6E0033320E /* ShareDataNsFileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A131A881AF15B6E0033320E /* ShareDataNsFileCoordinator.swift */; };
+		0A131A8C1AF1695C0033320E /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A131A8B1AF1695C0033320E /* SharedConstants.swift */; };
+		0A131A8D1AF1695C0033320E /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A131A8B1AF1695C0033320E /* SharedConstants.swift */; };
+		0A717FFB1AF053D10099FD7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A717FFA1AF053D10099FD7B /* AppDelegate.swift */; };
+		0A717FFD1AF053D10099FD7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A717FFC1AF053D10099FD7B /* ViewController.swift */; };
+		0A7180001AF053D10099FD7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A717FFE1AF053D10099FD7B /* Main.storyboard */; };
+		0A7180021AF053D10099FD7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7180011AF053D10099FD7B /* Images.xcassets */; };
+		0A7180051AF053D10099FD7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7180031AF053D10099FD7B /* LaunchScreen.xib */; };
+		0A7180111AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7180101AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests.swift */; };
+		0A7180241AF053DB0099FD7B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7180231AF053DB0099FD7B /* InterfaceController.swift */; };
+		0A7180261AF053DB0099FD7B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7180251AF053DB0099FD7B /* NotificationController.swift */; };
+		0A7180281AF053DB0099FD7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7180271AF053DB0099FD7B /* Images.xcassets */; };
+		0A71802C1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 0A71802B1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit App.app */; };
+		0A7180341AF053DB0099FD7B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7180321AF053DB0099FD7B /* Interface.storyboard */; };
+		0A7180361AF053DB0099FD7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7180351AF053DB0099FD7B /* Images.xcassets */; };
+		0A7180391AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A71801E1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A7180471AF13D840099FD7B /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7180461AF13D840099FD7B /* KeychainItemWrapper.m */; };
+		0A7180481AF146F70099FD7B /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7180461AF13D840099FD7B /* KeychainItemWrapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A71800B1AF053D10099FD7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A717FED1AF053D10099FD7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A717FF41AF053D10099FD7B;
+			remoteInfo = WhiteSkyShareDataSampleApp;
+		};
+		0A71802D1AF053DB0099FD7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A717FED1AF053D10099FD7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A71802A1AF053DB0099FD7B;
+			remoteInfo = "WhiteSkyShareDataSampleApp WatchKit App";
+		};
+		0A7180371AF053DB0099FD7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A717FED1AF053D10099FD7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A71801D1AF053DB0099FD7B;
+			remoteInfo = "WhiteSkyShareDataSampleApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A7180401AF053DB0099FD7B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A7180391AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A131A881AF15B6E0033320E /* ShareDataNsFileCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareDataNsFileCoordinator.swift; sourceTree = "<group>"; };
+		0A131A8B1AF1695C0033320E /* SharedConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedConstants.swift; sourceTree = "<group>"; };
+		0A717FF51AF053D10099FD7B /* WhiteSkyShareDataSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteSkyShareDataSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A717FF91AF053D10099FD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A717FFA1AF053D10099FD7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A717FFC1AF053D10099FD7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A717FFF1AF053D10099FD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A7180011AF053D10099FD7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A7180041AF053D10099FD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0A71800A1AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteSkyShareDataSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A71800F1AF053D10099FD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7180101AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteSkyShareDataSampleAppTests.swift; sourceTree = "<group>"; };
+		0A71801E1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WhiteSkyShareDataSampleApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7180211AF053DB0099FD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7180221AF053DB0099FD7B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0A7180231AF053DB0099FD7B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0A7180251AF053DB0099FD7B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0A7180271AF053DB0099FD7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A71802B1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhiteSkyShareDataSampleApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7180311AF053DB0099FD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7180331AF053DB0099FD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0A7180351AF053DB0099FD7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A7180411AF053F20099FD7B /* WhiteSkyShareDataSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WhiteSkyShareDataSampleApp.entitlements; sourceTree = "<group>"; };
+		0A7180421AF053FE0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "WhiteSkyShareDataSampleApp WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		0A7180441AF13D830099FD7B /* WhiteSkyShareDataSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhiteSkyShareDataSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		0A7180451AF13D840099FD7B /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		0A7180461AF13D840099FD7B /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A717FF21AF053D10099FD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7180071AF053D10099FD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A71801B1AF053DB0099FD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A131A871AF15B630033320E /* SharedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				0A131A881AF15B6E0033320E /* ShareDataNsFileCoordinator.swift */,
+				0A131A8B1AF1695C0033320E /* SharedConstants.swift */,
+			);
+			path = SharedClasses;
+			sourceTree = "<group>";
+		};
+		0A717FEC1AF053D10099FD7B = {
+			isa = PBXGroup;
+			children = (
+				0A131A871AF15B630033320E /* SharedClasses */,
+				0A7180431AF13D770099FD7B /* Externals */,
+				0A717FF71AF053D10099FD7B /* WhiteSkyShareDataSampleApp */,
+				0A71800D1AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests */,
+				0A71801F1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension */,
+				0A71802F1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit App */,
+				0A717FF61AF053D10099FD7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A717FF61AF053D10099FD7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A717FF51AF053D10099FD7B /* WhiteSkyShareDataSampleApp.app */,
+				0A71800A1AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests.xctest */,
+				0A71801E1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension.appex */,
+				0A71802B1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A717FF71AF053D10099FD7B /* WhiteSkyShareDataSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				0A7180411AF053F20099FD7B /* WhiteSkyShareDataSampleApp.entitlements */,
+				0A717FFA1AF053D10099FD7B /* AppDelegate.swift */,
+				0A717FFC1AF053D10099FD7B /* ViewController.swift */,
+				0A717FFE1AF053D10099FD7B /* Main.storyboard */,
+				0A7180011AF053D10099FD7B /* Images.xcassets */,
+				0A7180031AF053D10099FD7B /* LaunchScreen.xib */,
+				0A717FF81AF053D10099FD7B /* Supporting Files */,
+			);
+			path = WhiteSkyShareDataSampleApp;
+			sourceTree = "<group>";
+		};
+		0A717FF81AF053D10099FD7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A717FF91AF053D10099FD7B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A71800D1AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A7180101AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests.swift */,
+				0A71800E1AF053D10099FD7B /* Supporting Files */,
+			);
+			path = WhiteSkyShareDataSampleAppTests;
+			sourceTree = "<group>";
+		};
+		0A71800E1AF053D10099FD7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A71800F1AF053D10099FD7B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A71801F1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A7180421AF053FE0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension.entitlements */,
+				0A7180231AF053DB0099FD7B /* InterfaceController.swift */,
+				0A7180251AF053DB0099FD7B /* NotificationController.swift */,
+				0A7180271AF053DB0099FD7B /* Images.xcassets */,
+				0A7180201AF053DB0099FD7B /* Supporting Files */,
+			);
+			path = "WhiteSkyShareDataSampleApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0A7180201AF053DB0099FD7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A7180211AF053DB0099FD7B /* Info.plist */,
+				0A7180221AF053DB0099FD7B /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A71802F1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0A7180321AF053DB0099FD7B /* Interface.storyboard */,
+				0A7180351AF053DB0099FD7B /* Images.xcassets */,
+				0A7180301AF053DB0099FD7B /* Supporting Files */,
+			);
+			path = "WhiteSkyShareDataSampleApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		0A7180301AF053DB0099FD7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A7180311AF053DB0099FD7B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A7180431AF13D770099FD7B /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				0A7180451AF13D840099FD7B /* KeychainItemWrapper.h */,
+				0A7180461AF13D840099FD7B /* KeychainItemWrapper.m */,
+				0A7180441AF13D830099FD7B /* WhiteSkyShareDataSampleApp-Bridging-Header.h */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A717FF41AF053D10099FD7B /* WhiteSkyShareDataSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7180141AF053D10099FD7B /* Build configuration list for PBXNativeTarget "WhiteSkyShareDataSampleApp" */;
+			buildPhases = (
+				0A717FF11AF053D10099FD7B /* Sources */,
+				0A717FF21AF053D10099FD7B /* Frameworks */,
+				0A717FF31AF053D10099FD7B /* Resources */,
+				0A7180401AF053DB0099FD7B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7180381AF053DB0099FD7B /* PBXTargetDependency */,
+			);
+			name = WhiteSkyShareDataSampleApp;
+			productName = WhiteSkyShareDataSampleApp;
+			productReference = 0A717FF51AF053D10099FD7B /* WhiteSkyShareDataSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A7180091AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7180171AF053D10099FD7B /* Build configuration list for PBXNativeTarget "WhiteSkyShareDataSampleAppTests" */;
+			buildPhases = (
+				0A7180061AF053D10099FD7B /* Sources */,
+				0A7180071AF053D10099FD7B /* Frameworks */,
+				0A7180081AF053D10099FD7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A71800C1AF053D10099FD7B /* PBXTargetDependency */,
+			);
+			name = WhiteSkyShareDataSampleAppTests;
+			productName = WhiteSkyShareDataSampleAppTests;
+			productReference = 0A71800A1AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A71801D1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A71803D1AF053DB0099FD7B /* Build configuration list for PBXNativeTarget "WhiteSkyShareDataSampleApp WatchKit Extension" */;
+			buildPhases = (
+				0A71801A1AF053DB0099FD7B /* Sources */,
+				0A71801B1AF053DB0099FD7B /* Frameworks */,
+				0A71801C1AF053DB0099FD7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A71802E1AF053DB0099FD7B /* PBXTargetDependency */,
+			);
+			name = "WhiteSkyShareDataSampleApp WatchKit Extension";
+			productName = "WhiteSkyShareDataSampleApp WatchKit Extension";
+			productReference = 0A71801E1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		0A71802A1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A71803A1AF053DB0099FD7B /* Build configuration list for PBXNativeTarget "WhiteSkyShareDataSampleApp WatchKit App" */;
+			buildPhases = (
+				0A7180291AF053DB0099FD7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhiteSkyShareDataSampleApp WatchKit App";
+			productName = "WhiteSkyShareDataSampleApp WatchKit App";
+			productReference = 0A71802B1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A717FED1AF053D10099FD7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = WhiteSky;
+				TargetAttributes = {
+					0A717FF41AF053D10099FD7B = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 59T2J573Y5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					0A7180091AF053D10099FD7B = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 0A717FF41AF053D10099FD7B;
+					};
+					0A71801D1AF053DB0099FD7B = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 59T2J573Y5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					0A71802A1AF053DB0099FD7B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A717FF01AF053D10099FD7B /* Build configuration list for PBXProject "WhiteSkyShareDataSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A717FEC1AF053D10099FD7B;
+			productRefGroup = 0A717FF61AF053D10099FD7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A717FF41AF053D10099FD7B /* WhiteSkyShareDataSampleApp */,
+				0A7180091AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests */,
+				0A71801D1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension */,
+				0A71802A1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A717FF31AF053D10099FD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7180001AF053D10099FD7B /* Main.storyboard in Resources */,
+				0A7180051AF053D10099FD7B /* LaunchScreen.xib in Resources */,
+				0A7180021AF053D10099FD7B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7180081AF053D10099FD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A71801C1AF053DB0099FD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A71802C1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit App.app in Resources */,
+				0A7180281AF053DB0099FD7B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7180291AF053DB0099FD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7180341AF053DB0099FD7B /* Interface.storyboard in Resources */,
+				0A7180361AF053DB0099FD7B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A717FF11AF053D10099FD7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A717FFD1AF053D10099FD7B /* ViewController.swift in Sources */,
+				0A131A8C1AF1695C0033320E /* SharedConstants.swift in Sources */,
+				0A131A891AF15B6E0033320E /* ShareDataNsFileCoordinator.swift in Sources */,
+				0A717FFB1AF053D10099FD7B /* AppDelegate.swift in Sources */,
+				0A7180471AF13D840099FD7B /* KeychainItemWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7180061AF053D10099FD7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7180111AF053D10099FD7B /* WhiteSkyShareDataSampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A71801A1AF053DB0099FD7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7180261AF053DB0099FD7B /* NotificationController.swift in Sources */,
+				0A131A8D1AF1695C0033320E /* SharedConstants.swift in Sources */,
+				0A7180241AF053DB0099FD7B /* InterfaceController.swift in Sources */,
+				0A131A8A1AF15B6E0033320E /* ShareDataNsFileCoordinator.swift in Sources */,
+				0A7180481AF146F70099FD7B /* KeychainItemWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A71800C1AF053D10099FD7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A717FF41AF053D10099FD7B /* WhiteSkyShareDataSampleApp */;
+			targetProxy = 0A71800B1AF053D10099FD7B /* PBXContainerItemProxy */;
+		};
+		0A71802E1AF053DB0099FD7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A71802A1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit App */;
+			targetProxy = 0A71802D1AF053DB0099FD7B /* PBXContainerItemProxy */;
+		};
+		0A7180381AF053DB0099FD7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A71801D1AF053DB0099FD7B /* WhiteSkyShareDataSampleApp WatchKit Extension */;
+			targetProxy = 0A7180371AF053DB0099FD7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A717FFE1AF053D10099FD7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A717FFF1AF053D10099FD7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A7180031AF053D10099FD7B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7180041AF053D10099FD7B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0A7180321AF053DB0099FD7B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7180331AF053DB0099FD7B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A7180121AF053D10099FD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A7180131AF053D10099FD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A7180151AF053D10099FD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WhiteSkyShareDataSampleApp/WhiteSkyShareDataSampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WhiteSkyShareDataSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Externals/WhiteSkyShareDataSampleApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A7180161AF053D10099FD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WhiteSkyShareDataSampleApp/WhiteSkyShareDataSampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WhiteSkyShareDataSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Externals/WhiteSkyShareDataSampleApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		0A7180181AF053D10099FD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhiteSkyShareDataSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteSkyShareDataSampleApp.app/WhiteSkyShareDataSampleApp";
+			};
+			name = Debug;
+		};
+		0A7180191AF053D10099FD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhiteSkyShareDataSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteSkyShareDataSampleApp.app/WhiteSkyShareDataSampleApp";
+			};
+			name = Release;
+		};
+		0A71803B1AF053DB0099FD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WhiteSkyShareDataSampleApp_WatchKit_Extension;
+				INFOPLIST_FILE = "WhiteSkyShareDataSampleApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		0A71803C1AF053DB0099FD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WhiteSkyShareDataSampleApp_WatchKit_Extension;
+				INFOPLIST_FILE = "WhiteSkyShareDataSampleApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		0A71803E1AF053DB0099FD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WhiteSkyShareDataSampleApp WatchKit Extension/WhiteSkyShareDataSampleApp WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WhiteSkyShareDataSampleApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Externals/WhiteSkyShareDataSampleApp-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		0A71803F1AF053DB0099FD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WhiteSkyShareDataSampleApp WatchKit Extension/WhiteSkyShareDataSampleApp WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "WhiteSkyShareDataSampleApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Externals/WhiteSkyShareDataSampleApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A717FF01AF053D10099FD7B /* Build configuration list for PBXProject "WhiteSkyShareDataSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7180121AF053D10099FD7B /* Debug */,
+				0A7180131AF053D10099FD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7180141AF053D10099FD7B /* Build configuration list for PBXNativeTarget "WhiteSkyShareDataSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7180151AF053D10099FD7B /* Debug */,
+				0A7180161AF053D10099FD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7180171AF053D10099FD7B /* Build configuration list for PBXNativeTarget "WhiteSkyShareDataSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7180181AF053D10099FD7B /* Debug */,
+				0A7180191AF053D10099FD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A71803A1AF053DB0099FD7B /* Build configuration list for PBXNativeTarget "WhiteSkyShareDataSampleApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A71803B1AF053DB0099FD7B /* Debug */,
+				0A71803C1AF053DB0099FD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A71803D1AF053DB0099FD7B /* Build configuration list for PBXNativeTarget "WhiteSkyShareDataSampleApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A71803E1AF053DB0099FD7B /* Debug */,
+				0A71803F1AF053DB0099FD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A717FED1AF053D10099FD7B /* Project object */;
+}
